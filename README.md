@@ -4,9 +4,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Fadhil Nur Rizqi 26050120140116 B
 - Juan Javier 26050120140095 B
 - Irene Indah Yuni Simanungkalit 26050120140115 B
-- Athanasius Dhento Wilasma
-- Deno Ferdian	
-- Shumanty Nathio Simanjuntak
+- Athanasius Dhento Wilasma 26050120130071 A
+- Deno Ferdian 26050120130086 A	
+- Shumanty Nathio Simanjuntak 26050120130080 A 
 - Kalika Padmarani 26050120140043 B
 # Cara Penggunaan Script Python
 1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory dalam repository ini. 
@@ -28,31 +28,11 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Persamaan Adveksi-Difusi terutama 2 Dimensi adalah persamaan matematis yang didesain untuk mempelajari fenomena transpor polutan. Persamaan ini menggambarkan model pemodelan oseanografi yang menggambarkan proses transportasi suatu zat yang dipengaruhi gaya dalam dua dimensi.
 # Langkah pengerjaan Script Adveksi-Difusi 2D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot, numpy dan sys. Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
-
-import matplotlib.pyplot as plt
-import numpy as np
-import sys
-#%%
-def percentage(part, whole):
-    percentage = 100 * float(part)/float(whole)
-    return str(round(percentage,2)) + "X"
-    
-    
 2. Selanjutnya dimasukkan parameter awal dan parameter lanjutan untuk perhitungan polutan yang akan digunakan.
-
-
 3. Setelah itu dilakukan perhitungan dibuat dengan rumusan U dan V untuk mengetahui sebaran dari polutan.
-
-
 4. Dilanjutkan dengan pembuatan grid agar dalam pembuatan model sebagai boundary atau batas alat bantu untuk menyusun dan mengatur hasil akhir sebaran polutan.
-
-
 5. Dilakukan iterasi otomatis sampai memenuhi syarat batas kestabilan.
-
-
 6. Langkah terkahir yaitu membuat script untuk labelling pada grafik output sebaran polutan.
-
-
 7. Script siap dijalankan
 
 # Modul Hidrodinamika 1 Dimensi
